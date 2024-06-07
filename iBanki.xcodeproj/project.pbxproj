@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		D0247FBD2C1169E80067680B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0247FBC2C1169E80067680B /* AppDelegate.swift */; };
-		D0247FBF2C1169E80067680B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0247FBE2C1169E80067680B /* SceneDelegate.swift */; };
 		D0247FC12C1169E80067680B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0247FC02C1169E80067680B /* ViewController.swift */; };
-		D0247FC42C1169E80067680B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D0247FC32C1169E80067680B /* Base */; };
 		D0247FC72C1169E80067680B /* iBanki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0247FC52C1169E80067680B /* iBanki.xcdatamodeld */; };
 		D0247FC92C1169E80067680B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0247FC82C1169E80067680B /* Assets.xcassets */; };
 		D0247FCC2C1169E80067680B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D0247FCB2C1169E80067680B /* Base */; };
 		D0247FD72C1169E90067680B /* iBankiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0247FD62C1169E90067680B /* iBankiTests.swift */; };
 		D0247FE12C1169E90067680B /* iBankiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0247FE02C1169E90067680B /* iBankiUITests.swift */; };
 		D0247FE32C1169E90067680B /* iBankiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0247FE22C1169E90067680B /* iBankiUITestsLaunchTests.swift */; };
+		D0247FF02C116AE30067680B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0247FEF2C116AE30067680B /* LoginViewController.swift */; };
+		D0247FF22C116B960067680B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0247FF12C116B960067680B /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,7 @@
 /* Begin PBXFileReference section */
 		D0247FB92C1169E80067680B /* iBanki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBanki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0247FBC2C1169E80067680B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0247FBE2C1169E80067680B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D0247FC02C1169E80067680B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0247FC32C1169E80067680B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0247FC62C1169E80067680B /* iBanki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iBanki.xcdatamodel; sourceTree = "<group>"; };
 		D0247FC82C1169E80067680B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0247FCB2C1169E80067680B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		D0247FDC2C1169E90067680B /* iBankiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBankiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0247FE02C1169E90067680B /* iBankiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBankiUITests.swift; sourceTree = "<group>"; };
 		D0247FE22C1169E90067680B /* iBankiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBankiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0247FEF2C116AE30067680B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D0247FF12C116B960067680B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				D0247FBC2C1169E80067680B /* AppDelegate.swift */,
-				D0247FBE2C1169E80067680B /* SceneDelegate.swift */,
 				D0247FC02C1169E80067680B /* ViewController.swift */,
-				D0247FC22C1169E80067680B /* Main.storyboard */,
 				D0247FC82C1169E80067680B /* Assets.xcassets */,
 				D0247FCA2C1169E80067680B /* LaunchScreen.storyboard */,
 				D0247FCD2C1169E80067680B /* Info.plist */,
 				D0247FC52C1169E80067680B /* iBanki.xcdatamodeld */,
+				D0247FEF2C116AE30067680B /* LoginViewController.swift */,
+				D0247FF12C116B960067680B /* LoginView.swift */,
 			);
 			path = iBanki;
 			sourceTree = "<group>";
@@ -236,7 +236,6 @@
 			files = (
 				D0247FC92C1169E80067680B /* Assets.xcassets in Resources */,
 				D0247FCC2C1169E80067680B /* Base in Resources */,
-				D0247FC42C1169E80067680B /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0247FF22C116B960067680B /* LoginView.swift in Sources */,
 				D0247FC12C1169E80067680B /* ViewController.swift in Sources */,
 				D0247FC72C1169E80067680B /* iBanki.xcdatamodeld in Sources */,
 				D0247FBD2C1169E80067680B /* AppDelegate.swift in Sources */,
-				D0247FBF2C1169E80067680B /* SceneDelegate.swift in Sources */,
+				D0247FF02C116AE30067680B /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D0247FC22C1169E80067680B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0247FC32C1169E80067680B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0247FCA2C1169E80067680B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -451,7 +443,6 @@
 				INFOPLIST_FILE = iBanki/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,7 +470,6 @@
 				INFOPLIST_FILE = iBanki/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
