@@ -17,6 +17,8 @@
 		D0247FE32C1169E90067680B /* iBankiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0247FE22C1169E90067680B /* iBankiUITestsLaunchTests.swift */; };
 		D0247FF02C116AE30067680B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0247FEF2C116AE30067680B /* LoginViewController.swift */; };
 		D0247FF22C116B960067680B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0247FF12C116B960067680B /* LoginView.swift */; };
+		D05A9BDE2C23D0D50070BC37 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A9BDD2C23D0D50070BC37 /* OnBoardingContainerViewController.swift */; };
+		D05A9BE02C23D1CD0070BC37 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05A9BDF2C23D1CD0070BC37 /* OnBoardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D0247FE22C1169E90067680B /* iBankiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBankiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D0247FEF2C116AE30067680B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D0247FF12C116B960067680B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D05A9BDD2C23D0D50070BC37 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
+		D05A9BDF2C23D1CD0070BC37 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +105,11 @@
 		D0247FBB2C1169E80067680B /* iBanki */ = {
 			isa = PBXGroup;
 			children = (
-				D0247FBC2C1169E80067680B /* AppDelegate.swift */,
-				D0247FC02C1169E80067680B /* ViewController.swift */,
-				D0247FC82C1169E80067680B /* Assets.xcassets */,
-				D0247FCA2C1169E80067680B /* LaunchScreen.storyboard */,
 				D0247FCD2C1169E80067680B /* Info.plist */,
+				D05A9BDA2C23CF590070BC37 /* Resource */,
+				D05A9BD92C23CF3F0070BC37 /* Application */,
+				D05A9BD82C23CF370070BC37 /* View */,
 				D0247FC52C1169E80067680B /* iBanki.xcdatamodeld */,
-				D0247FEF2C116AE30067680B /* LoginViewController.swift */,
-				D0247FF12C116B960067680B /* LoginView.swift */,
 			);
 			path = iBanki;
 			sourceTree = "<group>";
@@ -128,6 +129,51 @@
 				D0247FE22C1169E90067680B /* iBankiUITestsLaunchTests.swift */,
 			);
 			path = iBankiUITests;
+			sourceTree = "<group>";
+		};
+		D05A9BD82C23CF370070BC37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D05A9BDC2C23D06F0070BC37 /* OnBoarding */,
+				D05A9BDB2C23D05C0070BC37 /* LoginView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D05A9BD92C23CF3F0070BC37 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D0247FBC2C1169E80067680B /* AppDelegate.swift */,
+				D0247FCA2C1169E80067680B /* LaunchScreen.storyboard */,
+				D0247FC02C1169E80067680B /* ViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D05A9BDA2C23CF590070BC37 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D0247FC82C1169E80067680B /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D05A9BDB2C23D05C0070BC37 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				D0247FEF2C116AE30067680B /* LoginViewController.swift */,
+				D0247FF12C116B960067680B /* LoginView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		D05A9BDC2C23D06F0070BC37 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				D05A9BDD2C23D0D50070BC37 /* OnBoardingContainerViewController.swift */,
+				D05A9BDF2C23D1CD0070BC37 /* OnBoardingViewController.swift */,
+			);
+			path = OnBoarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +308,9 @@
 			files = (
 				D0247FF22C116B960067680B /* LoginView.swift in Sources */,
 				D0247FC12C1169E80067680B /* ViewController.swift in Sources */,
+				D05A9BE02C23D1CD0070BC37 /* OnBoardingViewController.swift in Sources */,
 				D0247FC72C1169E80067680B /* iBanki.xcdatamodeld in Sources */,
+				D05A9BDE2C23D0D50070BC37 /* OnBoardingContainerViewController.swift in Sources */,
 				D0247FBD2C1169E80067680B /* AppDelegate.swift in Sources */,
 				D0247FF02C116AE30067680B /* LoginViewController.swift in Sources */,
 			);
